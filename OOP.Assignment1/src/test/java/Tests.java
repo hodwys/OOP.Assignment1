@@ -77,28 +77,28 @@ public class Tests {
     @Test
     void JVMUTILT_test() {
 
-//        GroupAdmin st = new GroupAdmin();
-//
-//        logger.info(() -> JvmUtilities.objectFootprint(st));
-//        ConcreteMember y = new ConcreteMember();
-//
-//        st.register(y);
-//        logger.info(() -> JvmUtilities.objectTotalSize(y));
-//        st.append("adi and hod");
-//        logger.info(() -> JvmUtilities.objectTotalSize(y));
-//        st.append(" loves food");
-//        ConcreteMember x = new ConcreteMember();
-//        st.register(x);
-//
-//        logger.info(()->JvmUtilities.objectTotalSize(x));
-//        logger.info(()->JvmUtilities.objectTotalSize(y));
-//
-//        st.append(" very much");
-//        logger.info(()->JvmUtilities.objectFootprint(x,y));
-//        st.append("!");
-//        logger.info(() -> JvmUtilities.objectFootprint(st));
-//        System.out.println("\n");
-//        logger.info(() -> JvmUtilities.jvmInfo());
+       GroupAdmin st = new GroupAdmin();
+
+       logger.info(() -> JvmUtilities.objectFootprint(st));
+       ConcreteMember y = new ConcreteMember();
+
+       st.register(y);
+       logger.info(() -> JvmUtilities.objectTotalSize(y));
+       st.append("adi and hod");
+       logger.info(() -> JvmUtilities.objectTotalSize(y));
+       st.append(" loves food");
+       ConcreteMember x = new ConcreteMember();
+       st.register(x);
+
+       logger.info(()->JvmUtilities.objectTotalSize(x));
+       logger.info(()->JvmUtilities.objectTotalSize(y));
+
+       st.append(" very much");
+       logger.info(()->JvmUtilities.objectFootprint(x,y));
+       st.append("!");
+       logger.info(() -> JvmUtilities.objectFootprint(st));
+       System.out.println("\n");
+       logger.info(() -> JvmUtilities.jvmInfo());
 
 
 
