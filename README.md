@@ -1,4 +1,4 @@
-# OOP.Assignment_1
+# OOP.Assignment1
  
 Observe is pattern type in which the refrenced object holds a list of other objects(in our code a Member objects) that is dependent and related to the observerable type. The observable type keeps updating it's data and each of the updates goes to a notification for the observers. (A follow example below in line 13).
 
